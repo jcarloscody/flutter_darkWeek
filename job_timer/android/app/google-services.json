@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727510895923",
+    "project_id": "dr-5-timer-job",
+    "storage_bucket": "dr-5-timer-job.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727510895923:android:9f29382229be4eb418c246",
+        "android_client_info": {
+          "package_name": "com.example.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727510895923-77jcp8hqkbcfvcmckvdiq1rf94c6p0ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8jw-ysUN4OkVMjKvvd23jV1bLV-hVLgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727510895923-77jcp8hqkbcfvcmckvdiq1rf94c6p0ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
