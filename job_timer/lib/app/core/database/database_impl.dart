@@ -1,7 +1,10 @@
 import 'package:isar/isar.dart';
+import 'package:job_timer/app/core/entities/project.dart';
+import 'package:job_timer/app/core/entities/project_task.dart';
 import 'package:path_provider/path_provider.dart';
 
 import './database.dart';
+//github.com/isar/isar
 
 class DatabaseImpl implements Database {
   Isar? _databaseInstance;
@@ -11,7 +14,7 @@ class DatabaseImpl implements Database {
     if (_databaseInstance == null) {
       final dir = await getApplicationSupportDirectory();
       _databaseInstance = await Isar.open(
-        schemas: [],
+        schemas: [ProjectTaskSchema, ProjectSchema],
         directory: dir.path,
         inspector: true,
       );
